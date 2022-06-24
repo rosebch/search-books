@@ -12,7 +12,6 @@ const useGoogleBooksService = () => {
 
     const getBook = async (id) => {
         const res = await request(`https://www.googleapis.com/books/v1/volumes/${id}`);
-        console.log(_transformBook(res));
         return _transformBook(res);
     }
 
