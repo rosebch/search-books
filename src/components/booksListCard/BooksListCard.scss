@@ -1,0 +1,35 @@
+.books {
+    &__card {
+        width: 260px;
+        height: 370px;
+        padding: 20px;
+        margin: 15px;
+        color: #8f8f8f;
+        font-size: 14px;
+        background-color: #dad6d6;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__card-img {
+        width: 120px;
+        align-self: center;
+        height: 180px;
+        margin-bottom: 20px;
+        box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.38);
+        text-align: center;
+    }
+
+    &__card-category {        
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+
+    &__card-title {
+        color: #000;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+}

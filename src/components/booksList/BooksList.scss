@@ -1,0 +1,32 @@
+.books {
+    &__list {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+    }
+
+    &__grid {
+        width: 100%;
+        max-width: 1160px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+
+    &__total-count {
+        font-size: 35px;
+        margin: 30px auto;
+        color: rgb(94, 92, 92);
+    }
+
+    &__button {
+        text-align: center;
+        margin: 40px auto;
+        width: 90px;
+        height: 40px;
+        color: rgb(98, 95, 95);
+        border-radius: 10px;
+        background-color:rgb(213, 206, 206)
+    }
+}
