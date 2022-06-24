@@ -1,0 +1,55 @@
+.book {
+    width: 100%;
+    max-width: 1160px;
+    margin: 50px auto;
+    display: flex;
+    flex: row;
+    justify-content: center;
+
+    &__img {
+        background-color: rgb(234, 232, 232);
+        max-width: 400px;
+        width: 100%;
+        flex: 0 0 30%;
+        padding: 90px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 50px;
+
+        img {
+            width: 170px;
+            height: 240px;
+            box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.38);
+        }
+    }
+
+    &__info {
+        max-width: 400px;
+    }
+
+    &__category{
+        margin-bottom: 30px;
+        color: rgb(88, 85, 85);
+    }
+
+    &__title {
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    &__author {
+        margin-bottom: 30px;
+        color: rgb(88, 85, 85);
+        text-decoration: underline;
+    }
+
+    &__descr {
+        margin-bottom: 30px;
+        line-height: 20px;
+    }
+
+    &__back {
+        color: black;
+    }
+}
